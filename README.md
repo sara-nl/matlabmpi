@@ -6,7 +6,7 @@ This is matlabmpi! It combines the power of MATLAB (within one computer), with t
 * **MPI_Recv** in C / **receivevar** in MATLAB
 * **MPI_Bcast** in C / **bcastvar** in MATLAB
 
-##Requirements
+## Requirements
 To run and build matlabmpi, you will need:
 
 * A C compiler (GCC will do)
@@ -15,7 +15,7 @@ To run and build matlabmpi, you will need:
 * The MATLAB Compiler (for building)
 * The MATLAB Compiler Runtime Environment
 
-##Build
+## Build
 
 **NB** Make sure that *mcc*, *mex*, *gcc* and *mpirun* are in your *PATH*, and that the MPI header and library can be found by the compiler/linker.
 
@@ -27,7 +27,7 @@ To run, please use the functionality of *mpirun*. For example, on eight cores:
 
 `mpirun -n 8 ./matlabprog`
 
-##Example
+## Example
 The example included uses all three implemented MPI functions. What it does:
 
 1. On the master process, it creates a vector [1,2,3,4,5,6,7,8,9]
