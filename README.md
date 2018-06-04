@@ -32,8 +32,8 @@ The example included uses all three implemented MPI functions. What it does:
 
 1. On the master process, it creates a vector [1,2,3,4,5,6,7,8,9]
 2. It then broadcasts this vector to all slave processes
-3. It then divides the work, *i.e.* it sends (unique) multiplication factor to all slaves
-4. Each slave process multiple the vector with its (unique) multiplication factor
+3. It then divides the work, *i.e.* it sends a (unique) multiplication factor to all slaves
+4. Each slave process multiplies the vector with its (unique) multiplication factor
 5. Each slave sends back his result to the master
 6. The master assembles all vectors into a matrix and prints that on screen
 
