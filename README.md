@@ -13,7 +13,7 @@ To run and build matlabmpi, you will need:
 * An MPI library (OpenMPI will do)
 * MATLAB
 * The MATLAB Compiler (for building)
-* The MATLAB Compiler Runtime Environment
+* The MATLAB Compiler Runtime Environment (for running)
 
 ## Build
 
